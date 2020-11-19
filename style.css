@@ -1,0 +1,65 @@
+body,
+html {
+  width: 500px;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(jporshelogo.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: auto;
+}
+
+h1 {
+  font-size: 3rem;
+  color: black;
+}
+h1:hover{
+  background-color: purple;
+  border-color: black;
+  border-width: 0px;
+  color:white;
+  }
+
+hr {
+  border-color: white;
+  border-width: 3px;
+  max-width: 65px;
+}
+
+.buffer {
+  height: 150px;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: white;
+  border-color: purple;
+  color: purple;
+}
+
+.btn-primary:hover {
+  background-color: purple;
+  border-color: black;
+  border-width: 4px;
+  color:white;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+p{
+    color: black;
+    font-size: 30px;
+    text-shadow: 1px 1px 3px purple;
+}
+
+.text-uppercase{
+  font-size: 40px;
+}
